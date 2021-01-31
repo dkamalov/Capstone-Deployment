@@ -1,12 +1,96 @@
 .column {
-    float: left;
-    width: 33%;
-    
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerC {
+  position: relative;
+  align-content: center;
+  text-align: center;
+}
+
+.text-block1 {
+  position: absolute;
+  bottom:1650px;
+  left:650px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block2 {
+  position: absolute;
+  bottom:450px;
+  left:700px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.button1 {
+  position: absolute;
+  top:2300px;
+  left:860px;
+  color: black;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button2{
+  position: absolute;
+  top:2300px;
+  left:210px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button3 {
+  position: absolute;
+  top:2300px;
+  left:1510px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button4{
+  position: absolute;
+  top:3600px;
+  left:860px;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button1:hover{
+  color: white;
+}
+.button2:hover{
+  color: white;
+}
+
+.button3:hover{
+  color: white;
+}

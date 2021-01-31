@@ -40,12 +40,12 @@ class ZipInfo extends Component {
         <header className="head">
           <hr></hr>
           <h5>
-            {this.props.dropoff_sitename}, {this.props.zipcode}
+            {this.props.food_scrap_drop_off_site}
           </h5>
         </header>
         
         <div className="container">
-            {" "}<h5>Address: {this.props.address}</h5>{" "}
+            {" "}<h5>Address: {this.props.location}</h5>{" "}
             <hr></hr>
             
             <Map

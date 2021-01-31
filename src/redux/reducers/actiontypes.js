@@ -1,0 +1,1 @@
+export const GOT_SINGLE_USER = "GOT_SINGLE_USER";

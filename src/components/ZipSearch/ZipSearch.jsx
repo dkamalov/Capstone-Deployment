@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import ZipInfo from "./ZipInfo";
+import './ZipSearch.css';
 
 class ZipSearch extends Component {
   constructor(props) {
@@ -146,14 +147,15 @@ class ZipSearch extends Component {
   render() {
     return (
       <div className="zipsearch">
-        <p>Type of object</p>
+        
+        {/* Say what the search is for Big title letters*/}
+        <br></br>
         <select onChange={this.getType}>
           <option value="electronics"> Electronics </option>
           <option value="pharmaceuticals"> Pharmaceuticals </option>
           <option value="textiles"> Textiles </option>
         </select>
-
-        <p>Zip Code: </p>
+        
         <input
           name="code"
           type="text"
@@ -161,7 +163,7 @@ class ZipSearch extends Component {
             this.setZip(e);
           }}
           value={this.state.code}
-          placeholder="Try 10016"
+          placeholder="Please enter a zip code"
         />
         <button onClick={this.fetchZipCode}>Search</button>
 
